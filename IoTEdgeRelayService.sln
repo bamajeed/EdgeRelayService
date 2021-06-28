@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30413.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AzureRelayPortBridge", "AzureRelayPortBridge\AzureRelayPortBridge.csproj", "{0EAC8BB2-3764-4935-A6BD-786512497F6C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PortBridgeClient", "PortBridgeClient\PortBridgeClient.csproj", "{412976A9-09CB-43A6-82BF-FF8F8C238AB2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PortBridgeServiceEdge", "PortBridgeServiceEdge\PortBridgeServiceEdge.csproj", "{9B29C3FE-9606-4D36-BFD1-3B45A2E19580}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TokenGenerator", "TokenGenerator\TokenGenerator.csproj", "{C102D694-8DD9-4388-898A-E8775BB5F9E1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{573D1199-5EA3-4A2F-B7FF-99F04AEDA235}"
+	ProjectSection(SolutionItems) = preProject
+		Readme.txt = Readme.txt
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0EAC8BB2-3764-4935-A6BD-786512497F6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0EAC8BB2-3764-4935-A6BD-786512497F6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0EAC8BB2-3764-4935-A6BD-786512497F6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0EAC8BB2-3764-4935-A6BD-786512497F6C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{412976A9-09CB-43A6-82BF-FF8F8C238AB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{412976A9-09CB-43A6-82BF-FF8F8C238AB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{412976A9-09CB-43A6-82BF-FF8F8C238AB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{412976A9-09CB-43A6-82BF-FF8F8C238AB2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B29C3FE-9606-4D36-BFD1-3B45A2E19580}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B29C3FE-9606-4D36-BFD1-3B45A2E19580}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B29C3FE-9606-4D36-BFD1-3B45A2E19580}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B29C3FE-9606-4D36-BFD1-3B45A2E19580}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C102D694-8DD9-4388-898A-E8775BB5F9E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C102D694-8DD9-4388-898A-E8775BB5F9E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C102D694-8DD9-4388-898A-E8775BB5F9E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C102D694-8DD9-4388-898A-E8775BB5F9E1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8B99D9A6-A4E6-4D98-BCA6-24874D6BAF01}
+	EndGlobalSection
+EndGlobal
