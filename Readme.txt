@@ -1,5 +1,6 @@
 DISCLAIMER: This code is provided as is without support and with minimum error checking. The code in this repo is not meant for use in production.
 
+This code uses the libraries from https://github.com/AndreasM009/azure-relay-portbridge/tree/master/AzureRelayPortBridge
 
 Build the docker container in project PortBridgeServiceEdge and push it to your container registry.
 Create an IoT Edge device and add the module PortBridgeServiceEdge to the device.
